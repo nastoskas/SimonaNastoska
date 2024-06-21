@@ -1,0 +1,216 @@
+body{
+    margin: auto;
+    width: 1350px;
+    font-family: "Cambria", sans-serif;
+}
+#selected a{
+    color: #263ab7;
+}
+.navbar ul, .navbar,.navbar1,.navbar1 ul,.navbar2,.navbar2 ul,.navbar3,.navbar3 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul,.navbar1 ul,.navbar2 ul,.navbar3 ul{
+    list-style-type: none;
+}
+.navbar li,.navbar1 li,.navbar2 li, .navbar3 li{
+    font-weight: bold;
+}
+.navbar a,.navbar1 a,.navbar2 a,.navbar3 a{
+    text-decoration: none;
+    color: white;
+}
+.navbar > img,.navbar1 img,.navbar2 img, .navbar3 img{
+    height: 100px;
+}
+body > div > div > ul > li{
+    margin-left: 60px;
+}
+body > div > div > ul > li:nth-child(4)
+{
+    margin-right: 100px;
+}
+.navbar{
+    background: linear-gradient(180deg,#4660b4,#F4C3A5);
+}
+.slika img{
+    height: 500px;
+    width: 1350px;
+}
+body > div > div.slika > div > h1
+{
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+    color: #72311D;
+}
+.navbar li:hover,.navbar1 li:hover,.navbar2 li:hover,.navbar3 li:hover{
+    font-size: larger;
+    cursor: pointer;
+}
+body > div > div.slika > div > h2{
+    position: relative;
+    bottom: 431px;
+    text-align: center;
+    color: #72311D;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px lightsteelblue;
+}
+.aboutStock{
+    width: 400px;
+}
+.aboutStock h2,.aboutStock p{
+    text-align: center;
+}
+.facts{
+    width: 400px;
+}
+.facts h2{
+    text-align: center;
+}
+.facts ul{
+    padding-left: 0;
+}
+.aboutS{
+    display: flex;
+    justify-content: space-around;
+    background: #FFA164;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aboutStock,.facts{
+    background: #F4C3A5;
+    border-radius: 10px;
+}
+.pozadina{
+    background: linear-gradient(94deg, #5271ff, #ff8b43);
+}
+.other{
+    color: white;
+    text-align: center;
+}
+.sliki1{
+    width: 1150px;
+    margin: auto;
+}
+.naslov{
+    float: right;
+    margin-right: 200px;
+    width: 500px;
+}
+.sl{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.pozadina1{
+    background: linear-gradient(#4660b4,white);
+}
+.navbar1{
+    background: linear-gradient(#4660b4, #a3baff);
+}
+.navbar2{
+    background: linear-gradient(#ecbfbf,linen);
+}
+.parag{
+    float: right;
+    width: 500px;
+    margin-right: 200px;
+    background: #ecbfbf;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 60px;
+}
+#matura{
+    border-radius: 300px;
+    margin-left: 150px;
+}
+.wrapper1{
+    background: url("sliki/pozadinaa.jpg") no-repeat;
+    width: 1350px;
+    background-size: 1350px;
+    margin-bottom: 35px;
+}
+.wrapper{
+    background: linear-gradient(#ecbfbf,linen);
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+.media p, .media h2{
+    background: #ecbfbf;
+    padding: 10px;
+    border-radius: 10px;
+}
+.media img{
+    padding-left: 12px;
+    margin-bottom: 42px;
+}
+.sk p{
+    background: #ecbfbf;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.pics1{
+    display: block;
+    width: 650px;
+    margin: auto;
+    text-align: center;
+}
+.bod{
+    background: url("sliki/ohrid1.jpg")no-repeat;
+    background-size: 1350px 1000px;
+    width: 1350px;
+    height: 1000px;
+}
+.navbar3{
+    background: linear-gradient(#57a1ec, #a4c8e1);
+}
+.oh img{
+    margin-left: 153px;
+    margin-top: 89px;
+}
+.oh h1{
+    color: white;
+    margin-top: 42px;
+    margin-left: 47px;
+    text-shadow: 2px 2px #263ab7;
+}
+.oh p{
+    float: right;
+    width: 500px;
+    background: rgba(143, 189, 225, 0.62);
+    color: white;
+    margin-top: 125px;
+    margin-right: 278px;
+    font-weight: bold;
+    font-size: x-large;
+}
+body > div.telo > p{
+    width: 800px;
+    font-size: larger;
+    color: white;
+    background: rgba(143, 189, 225, 0.62);
+}
+.del{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 100px;
+    font-size: 17px;
+    background: rgba(143, 189, 225, 0.62);
+}
+.del1{
+    width: 500px;
+    background: rgba(75, 153, 210, 0.78);
+    border-radius: 10px;
+}
+.del2{
+    width: 500px;
+    background: rgba(75, 153, 210, 0.78);
+    border-radius: 10px;
+}
